@@ -69,3 +69,5 @@ print(meanInsType)
 
 effectAgeOnSpeed = df['age'].corr(df['walking_speed'])
 print(effectAgeOnSpeed)
+
+df.to_csv("ms_data_edited.csv", index=False)
